@@ -1,5 +1,5 @@
 body {
-  background-image: url('../../../../../img/back.jpg');
+  background-image: url('../../../img/back.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -217,7 +217,7 @@ a{
 /*响应式媒体查询*/
 @media screen and (min-width:960px) {
   body{
-    background-image: url('../../../../../img/back.jpg');
+    background-image: url('../../../img/back.jpg');
   }
   .music_box {
     width: 50%;
