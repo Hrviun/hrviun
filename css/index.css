@@ -1,0 +1,55 @@
+body {
+    background-color: #000000;
+}
+
+.aio {
+    background-image: url('../img/back.jpg');
+    background-position: center;
+    padding: 14%;
+    border-radius: 30px;
+
+}
+
+.pol {
+    width: 5.37rem;
+    margin-left: 2.8%;
+    position: fixed;
+}
+
+
+.qmu {
+    padding: 0.5%;
+
+}
+
+.huanying {
+
+    width: 40%;
+    font-family: "华文楷体";
+    font-size: 30px;
+    text-align: center;
+    color: #0000ff;
+
+}
+
+@-webkit-keyframes shine {
+
+    /*创建动画*/
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+.ziti {
+    font-family: "华文楷体";
+    font-size: 20px;
+}
+
+.zitill {
+    font-family: "华文楷体";
+    font-size: 17px;
+}
