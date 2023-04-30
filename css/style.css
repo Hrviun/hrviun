@@ -103,27 +103,6 @@ a {
     margin: 0;
 }
 
-.banm {
-    margin-left: 80%;
-    position: fixed;
-
-}
-
-.butt {
-
-    background: transparent;
-
-    /* 给边框添加圆角 */
-    border-radius: 6px;
-    /* 字母转大写 */
-    border: none;
-    color: white;
-
-
-    font-size: 16px;
-
-
-}
 
 
 

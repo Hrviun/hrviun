@@ -1,5 +1,6 @@
 body {
     background-color: #000000;
+	
 }
 
 .aio {
@@ -52,11 +53,4 @@ body {
 .zitill {
     font-family: "华文楷体";
     font-size: 17px;
-}
-/* 一言 */
-.l{
-	margin-left: -40%;
-}
-.r{
-	margin-right: -40%;
 }
