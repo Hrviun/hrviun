@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>HRVIUN-留言板</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+		<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+		<link rel="shortcut icon" href="./img/logo2.png" type="image/x-icon">
+	</head>
+
+	<body>
+		<div id="gitalk-container"></div>
+		<script>
+			const gitalk = new Gitalk({
+				clientID: '11d451753b22bbf19b77',
+				clientSecret: 'cf17d6344423bd81191544b6deb7b2a68ff333d0',
+				repo: 'Hrviun/s', // The repository of store comments,
+				owner: 'Hrviun',
+				admin: ['GitHub repo owner and collaborators, only these guys can initialize github issues'],
+				id: location.pathname, // Ensure uniqueness and length less than 50
+				distractionFreeMode: false // Facebook-like distraction free mode
+			})
+
+			gitalk.render('gitalk-container')
+		</script>
+	</body>
+
+</html>
